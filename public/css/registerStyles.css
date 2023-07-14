@@ -27,6 +27,7 @@ footer{
     align-items: center;
 }
 .links-1{
+    list-style: none;
     width: 30vw;
     display: flex;
     flex-direction: row;
@@ -36,6 +37,7 @@ footer{
     padding: 10px;
 }
 .links-2{
+    list-style: none;
     width: 30vw;
     display:flex;
     flex-direction:row;
