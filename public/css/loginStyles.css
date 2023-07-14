@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Kanit';
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header{
+    background-color: #EAC926;
+}
+main{
+    background-color: #ebebeb;
+}
+footer{
+    margin: 20px;
+    text-align: center;
+}
+.burger-menu{
+    color:white;
+    background-color:darkblue;
+    padding: 5px;
+    border: 1px;
+    inline-size: 25px;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.icono{
+    color: blue;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 5px;
+    align-content: center;
+    inline-size: 25px;
+}
+.TituloFooter{
+    margin:10px;
+    font-size: 24px;
+    color: #666;
+}
+.logo-buscador-p{
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@media(min-width: 100px) and (max-width: 360px){
+    nav{
+        display:none !important;
+    }
+}
+@media(min-width: 360px) and (max-width:769px){
+    nav{
+        display:none !important;
+    }
+    .buscador{
+        width: 50vw;
+    }
+    .logo{
+        width: 50%;
+    }
+    #centrado{
+        text-align: center;
+        padding: 10px;
+        border: 10px;
+    }
+}
+@media(min-width: 769px){
+    .icono{
+        transition-duration: 0.4s;
+    }
+    .icono:hover{
+        color: #0022AA;
+    }
+    .logo{
+        width: 33%;
+        display:inline;
+        inline-size: 33vw;
+    }
+    .buscador{
+        padding: 10px;
+        border: 10px;
+        width: 33%;
+        display:inline;
+        inline-size: 30vw;
+    }
+    #centrado{
+        text-align: right;
+        margin-top:20px;
+    }
+    .burger-menu{
+        display: none !important;
+    }
+    .container-footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .caja-footer{
+        width: 31vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.links{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.links-1{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+    padding: 10px;
+}
+.links-2{
+    width: 30vw;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+    padding: 10px;
+    border:10px;
+}
+.nav-links, .usuario{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: inline;
+    border: 10px;
+    padding: 10px;
+}
+.buscador{
+    display:inline;
+    height: 30px;
+    border-radius: 5px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    font-weight: bold;
+    font-size: 14px;
+    color:white;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    height: 30px;
+    width: 50vw;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: #0022AA;
+}
+.input{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 30px;
+    border-radius: 5px;
+}
+.copyright{
+    font-size: 10px;
+    margin: 10px;
+    text-align: start;
+}
